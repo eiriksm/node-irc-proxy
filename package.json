@@ -1,0 +1,19 @@
+{
+  "name": "node-irc-proxy",
+  "version": "1.0.0",
+  "description": "node-irc-proxy ==============",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eiriksm/node-irc-proxy.git"
+  },
+  "author": "Eirik S. Morland <eirik@morland.no>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eiriksm/node-irc-proxy/issues"
+  },
+  "homepage": "https://github.com/eiriksm/node-irc-proxy"
+}
