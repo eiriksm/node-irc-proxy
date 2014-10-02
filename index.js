@@ -7,6 +7,9 @@ process.on("uncaughtException", function(e) {
   app.log(e.stack);
 });
 
+console.log(process.env.OPENSHIFT_NODEJS_PORT);
+console.log(process.env);
+
 if (!process.env.OPENSHIFT_NODEJS_PORT && process.argv.length != 5) {
   console.log("Require the following command line arguments:" +
     " proxy_port service_host service_port");
