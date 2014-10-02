@@ -80,6 +80,6 @@ var server = net.createServer(function(proxySocket) {
   });
 });
 
-server.listen(proxyPort, function() {
+server.listen(proxyPort, ip, function() {
   app.log('Server started');
 });
