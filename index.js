@@ -5,6 +5,7 @@ process.on("uncaughtException", function(e) {
   app.log('UNCAUGHT EXCEPTION!!111');
   app.log(e.message);
   app.log(e.stack);
+  process.exit();
 });
 
 console.log(process.env.OPENSHIFT_NODEJS_PORT);
